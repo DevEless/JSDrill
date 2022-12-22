@@ -20,12 +20,12 @@ for (let i = 20; i >= 0; i -= 2) {
     console.log(i);
 }
 console.log('Exercice4')
-let nom = ['Denis, Bachir, Laurent, Kadrilatere, Bernie, Yass in, Robert,']
+let prenoms2 = ['Denis, Bachir, Laurent, Kadrilatere, Bernie, Yass in, Robert,']
 let longPrenoms = [];
 
-for (let i = 0; i < prenoms.length; i++) {
-    if (prenoms[i].length > 5) {
-        longPrenoms.push(prenoms[i]);
+for (let i = 0; i < prenoms2.length; i++) {
+    if (prenoms2[i].length > 5) {
+        longPrenoms.push(prenoms2[i]);
     }
 }
 console.log(longPrenoms)
