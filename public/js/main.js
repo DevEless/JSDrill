@@ -60,7 +60,7 @@ for (let i = 0; i < donnees.length; i++) {
         typeAutre.push(element);
     }
 }
-const transformedGreeting = greeting.toLowerCase().replace(/\b\w/g, l => l.toUpperCase());
+const caps = greeting.toLowerCase().replace(/\b\w/g, l => l.toUpperCase());
 
 console.log(typeAutre);
 
