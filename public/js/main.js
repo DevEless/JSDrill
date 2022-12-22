@@ -60,9 +60,11 @@ for (let i = 0; i < donnees.length; i++) {
         typeAutre.push(element);
     }
 }
-const caps = greeting.toLowerCase().replace(/\b\w/g, l => l.toUpperCase());
 
 console.log(typeAutre);
+console.log(typeObject);
+console.log(typeNumber);
+console.log(typeString);
 
 console.log('Exercice7')
 const names = ["jane", "john", "jack"];
